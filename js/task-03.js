@@ -22,4 +22,4 @@ const galleryItems = images
   )
   .join("");
 
-gallery.insertAdjacentElement("beforeend", galleryItems);
+gallery.insertAdjacentHTML('beforeend', galleryItems);
